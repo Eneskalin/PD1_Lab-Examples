@@ -20,11 +20,5 @@ int main() {
 	printf("Ogrenci Notu\n");
 	printf("%.2f",not);
 
-
-
-	
-
-
-
     return 0;
 }
