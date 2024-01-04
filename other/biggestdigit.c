@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*Girilen bir tam saymm hanelerindeki en büyük sayy bulma.*/
+/*Girilen bir tam saymm hanelerindeki en büyük sayi bulma.*/
 
 
 int main(){

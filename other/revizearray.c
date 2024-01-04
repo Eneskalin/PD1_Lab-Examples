@@ -13,6 +13,7 @@ void main(){
         {
             if (a[i]==a[j])
             {
+               
                 a[j+1]=a[j];
             }
             
