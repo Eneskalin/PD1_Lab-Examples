@@ -25,7 +25,6 @@ void main(){
             sum=sum+a[i][j];
         }
         a[i][4]=sum/3;
-        printf("%f",a[0][4]);
         
         
     }
