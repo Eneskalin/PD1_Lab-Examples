@@ -23,18 +23,6 @@ int main(){
     output[j]='\0';
 
     puts(output);
-    
-    
-    
-
-
-
-
-
-
-
-
-
 
     return 0;
 }

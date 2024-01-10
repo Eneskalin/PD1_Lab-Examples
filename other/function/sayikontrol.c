@@ -2,39 +2,32 @@
 
 /*sayiKontrol isimli bir fonksiyon yazınız Bu fonksiyon kendisine gönderden sayının basamaklari  birbirine eşitse 1 değilse 0 
 döndürsün Yazdğınız fonksiyonu A dizisindeki sayılardan basamakları aynı olan ve olmayanları bulmak için kullanın
-Kullanılacak A diziis
+Kullanılacak A dizisi
 A= 233, 45, 777,81, 99999, 35, 90,88 11,61*/
-int a[9]={233,45,777,81,9999,36,90,88,11,61},ilk,basamak;
-int sayiKontrol(int);
+int sayiKontrol(int array[]);
 
-int main(){
+void main(){
+    int a[]={233,45,9999,35,90,88,11,61};
     
-
-
-
-    return 0;
 }
 
-int sayiKontrol(int num){
-    ilk = num%10;
-    num=num/10;
-    while (num>0)
+int sayiKontrol(int array[]){
+    int digit,temp,opposite=0;
+    for (int i = 0; i < 8; i++)
     {
-        basamak=num%10;
-        if (ilk!=basamak)
+        temp=array[i];
+        while (array[i]>0)
         {
-            return 0;
+            digit=array[i]%10;
+            opposite=opposite*10+digit;
         }
-        ilk = basamak;
-        num/=10;
-        
+        return (temp == opposite) ? 1 : 0;
         
         
     }
-    return 1;
-
     
-    }
+
+}
     
 
 
