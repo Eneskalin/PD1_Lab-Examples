@@ -4,14 +4,14 @@ int strlen(char a[]);
 int main(){
     char str[80];
     printf("Enter a string:");
-    gets(str);
+    gets(str); //enes
     printf("%d",strlen(str));
 
 
 }
-int strlen(char a[]){
+int strlen(char a[]){ //enes
     int k=0;
-    while (a[k]!='\0')
+    while (a[k]!='\0') // enes
     {
         k++;
     }

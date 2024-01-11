@@ -7,7 +7,7 @@
 void generator(int,int);
 
 int main(){
-    int max,min;   
+    int min,max;   
     printf("Enter first number:");
     scanf("%d",&max);
     printf("Enter second number:");

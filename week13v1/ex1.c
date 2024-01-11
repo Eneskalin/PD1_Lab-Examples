@@ -8,7 +8,6 @@ int main(){
     printf("Karenin uzunlugunu giriniz:");
     scanf("%d",&a);
     printf("%d",kareAl(a));
-    
     return 0;    
 }
 int kareAl(int a){
