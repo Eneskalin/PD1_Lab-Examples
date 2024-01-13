@@ -3,40 +3,21 @@
 progranumn algoritma ve ak19 diyagranum olusturunuz.Scanning an array using bubble sorting
 Create the program program and AK19 diagram.*/
 
-void main(){
-    int num,a[10],temp;
-
-    for (int i = 0; i <10 ; i++)
+void bubblesort(int arr[],int size){
+    for (int i = 0; i < size; i++)
     {
-        scanf("%d",&a[i]);
-    }
-
-    for (int i = 0; i <9; i++)
-    {
-        for (int j = 0; j <9; j++)
+        for (int j = 0; j < size-i; j++)
         {
-            if (a[j]>a[j+1])
+            if (arr[j-1]>arr[j])
             {
-                temp = a[j];
-                a[j]=a[j+1];
-                a[j+1]=temp;
+                int temp=arr[j];
+                arr[j]=arr[j-1];
+                arr[j-1]=temp;
             }
             
         }
         
-    }for (int i = 0; i <10; i++)
-    {
-        printf("%2d",a[i]);
-    }
-    
- 
-    
-
-
-
-
-
-
+    }  
 }
 
 

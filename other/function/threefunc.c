@@ -38,7 +38,7 @@ int strLength(char a[]){
 }
 void strReverse(char b[],int m){
     char temp;
-    for (int i = 0; i <m; i++)
+    for (int i = 0; i <m/2; i++)
     {
         temp=b[i];
         b[i]=b[m-i-1];
